@@ -1,0 +1,11 @@
+<%- include("partials/header") %>
+<h1>Contact</h1>
+<div>
+    <p><strong>Email:</strong><%= contactPageEmail %></p>
+    <p><strong>Phone:</strong><%= contactPagePhone %></p>
+    <label>Send Message:</label>
+    <textarea class="form-control" name="postInput" cols="100" rows="5" class="composeCon" style="resize: none;"></textarea>
+    <br>
+    <button class="btn btn-primary" type="submit" name="button" style="background-color: rgb(4, 4, 162); color: white;" class="publishBtn">Send</button>
+</div>
+<%- include("partials/footer") %>
